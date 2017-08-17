@@ -1,0 +1,25 @@
+{
+  "name": "simple-redux-calculator",
+  "version": "1.0.0",
+  "description": "Demo app that uses a simple calculator to demonstrate the principles of Redux",
+  "main": "/src/app.js",
+  "repository": "https://github.com/TanveerSehgal/simple-redux.git",
+  "author": "Tanveer Sehgal <tanveersehgal@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "css-loader": "0.28.5",
+    "file-loader": "0.11.2",
+    "html-webpack-plugin": "2.30.1",
+    "style-loader": "0.18.2",
+    "webpack": "3.5.5",
+    "webpack-dev-server": "2.7.1"
+  },
+  "dependencies": {
+    "redux": "3.7.2"
+  }
+}

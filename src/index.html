@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Redux Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+<div id="app">
+    <div style="margin-top: 20px" class="container jumbotron">
+        <div class="row">
+            <div class="input-group col-sm">
+                <input id="op-number" type="number" class="form-control" placeholder="Enter a Number" />
+            </div>
+
+            <div class="col-sm">
+                <button id="add-btn" class="btn btn-success">Add</button>
+
+                <button id="subtract-btn" class="btn btn-danger">Subtract</button>
+
+                <button id="reset-btn" class="btn btn-warning">Reset</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <h3 id="grand-total" style="margin: 0 auto">0</h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -3,3 +3,9 @@ article/
 
 # IDE
 .idea/
+
+# Bundle
+dist/
+
+# Modules
+node_modules/
